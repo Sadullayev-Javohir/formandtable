@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Simple Web Page</h1>
+        <h5>Student information</h5>
+
+        <!-- table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>20</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>21</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>Charlie</td>
+                    <td>22</td>
+                    <td>C</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- form -->
+        <form action="">
+            <h1>Contact Us</h1>
+            <label for="name">Name: </label>
+            <input required autofocus type="text" name="name" id="name">
+            <label for="email">Email: </label>
+            <input type="email" required name="email" id="eamil">
+            <label for="message">Message: </label>
+            <textarea required wrap="hard" rows="3" name="message" id="message"></textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
